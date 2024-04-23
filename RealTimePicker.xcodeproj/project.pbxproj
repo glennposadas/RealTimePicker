@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45E62D292BD7DF5B00123BC4 /* RealTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF5328154B96007B8AFE /* RealTimePickerView.swift */; };
+		45E62D2A2BD7DF5B00123BC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF5528154E2A007B8AFE /* Extensions.swift */; };
 		8426FF2C28154646007B8AFE /* RealTimePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8426FF2328154646007B8AFE /* RealTimePicker.framework */; };
 		8426FF3128154646007B8AFE /* RealTimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF3028154646007B8AFE /* RealTimePickerTests.swift */; };
-		8426FF3228154646007B8AFE /* RealTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8426FF2628154646007B8AFE /* RealTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8426FF42281547FE007B8AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF41281547FE007B8AFE /* AppDelegate.swift */; };
 		8426FF46281547FE007B8AFE /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF45281547FE007B8AFE /* ExampleViewController.swift */; };
 		8426FF4B281547FF007B8AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8426FF4A281547FF007B8AFE /* Assets.xcassets */; };
 		8426FF4E281547FF007B8AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8426FF4C281547FF007B8AFE /* LaunchScreen.storyboard */; };
-		8426FF5428154B96007B8AFE /* RealTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF5328154B96007B8AFE /* RealTimePickerView.swift */; };
-		8426FF5628154E2A007B8AFE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426FF5528154E2A007B8AFE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		8426FF2328154646007B8AFE /* RealTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8426FF2628154646007B8AFE /* RealTimePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealTimePicker.h; sourceTree = "<group>"; };
 		8426FF2B28154646007B8AFE /* RealTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8426FF3028154646007B8AFE /* RealTimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimePickerTests.swift; sourceTree = "<group>"; };
 		8426FF3F281547FE007B8AFE /* RealTimePickerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimePickerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +70,6 @@
 		8426FF1928154646007B8AFE = {
 			isa = PBXGroup;
 			children = (
-				8426FF2528154646007B8AFE /* RealTimePicker */,
 				8426FF2F28154646007B8AFE /* RealTimePickerTests */,
 				8426FF40281547FE007B8AFE /* RealTimePickerExamples */,
 				8426FF2428154646007B8AFE /* Products */,
@@ -89,16 +86,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8426FF2528154646007B8AFE /* RealTimePicker */ = {
-			isa = PBXGroup;
-			children = (
-				8426FF2628154646007B8AFE /* RealTimePicker.h */,
-				8426FF5328154B96007B8AFE /* RealTimePickerView.swift */,
-				8426FF5528154E2A007B8AFE /* Extensions.swift */,
-			);
-			path = RealTimePicker;
-			sourceTree = "<group>";
-		};
 		8426FF2F28154646007B8AFE /* RealTimePickerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +97,8 @@
 		8426FF40281547FE007B8AFE /* RealTimePickerExamples */ = {
 			isa = PBXGroup;
 			children = (
+				8426FF5328154B96007B8AFE /* RealTimePickerView.swift */,
+				8426FF5528154E2A007B8AFE /* Extensions.swift */,
 				8426FF41281547FE007B8AFE /* AppDelegate.swift */,
 				8426FF45281547FE007B8AFE /* ExampleViewController.swift */,
 				8426FF4A281547FF007B8AFE /* Assets.xcassets */,
@@ -126,7 +115,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8426FF3228154646007B8AFE /* RealTimePicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8426FF5428154B96007B8AFE /* RealTimePickerView.swift in Sources */,
-				8426FF5628154E2A007B8AFE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8426FF46281547FE007B8AFE /* ExampleViewController.swift in Sources */,
+				45E62D292BD7DF5B00123BC4 /* RealTimePickerView.swift in Sources */,
 				8426FF42281547FE007B8AFE /* AppDelegate.swift in Sources */,
+				45E62D2A2BD7DF5B00123BC4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +475,6 @@
 		8426FF3928154646007B8AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -503,7 +490,6 @@
 		8426FF3A28154646007B8AFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
